@@ -14,11 +14,21 @@ https://www.boot.dev/courses/build-asteroids-python.
 
 ## Installation
 
-1. Clone the repository:
+To run the game, you only need to clone the repository.
 
 ```bash
-git clone
+git clone git@github.com:paatre/asteroids.git
+cd asteroids
 uv run main.py
+```
+
+If you want to develop or modify the game, you should create a virtual
+environment, activate it, and install the required packages.
+
+```bash
+uv venv
+uv sync
+source .venv/bin/activate
 ```
 
 ## TODO
