@@ -1,0 +1,8 @@
+{
+  "reportOperatorIssue": "none",
+  "python.venvPath": ".",
+  "python.venv": ".venv",
+  "python.analysis.extraPaths": [
+    "./src"
+  ]
+}
